@@ -73,7 +73,7 @@ function setUpChart() {
         .attr("cx", d => xLinearScale(d.poverty))
         .attr("cy", d => yLinearScale(d.healthcare))
         .attr("r", "17")
-        .attr("fill", "#00B2EE") 
+        .attr("fill", "blue") 
         .attr("opacity", ".5")
         .attr("stroke-width", "2")
         .attr("stroke", "black"); 
