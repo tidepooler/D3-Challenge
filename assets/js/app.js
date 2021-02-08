@@ -90,7 +90,7 @@ function setUpChart() {
             .attr("dy",-415)
             .attr("text-anchor", "middle")
             .attr("font-size", "10px")
-            .attr("fill", "white");
+            .attr("fill", "black");
     
             console.log(censusData);
     
