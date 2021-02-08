@@ -10,6 +10,8 @@ The editor wants to run a series of feature stories about the health risks facin
 
 The data set included with the assignment is based on 2014 ACS 1-year estimates from the [US Census Bureau](https://data.census.gov/cedsci/), but you are free to investigate a different data set. The current data set includes data on rates of income, obesity, poverty, etc. by state. MOE stands for "margin of error."
 
+The link to this completed project can be located by clicking [here](https://tidepooler.github.io/D3-Challenge/)
+
 ### Before You Begin
 
 1. Create a new repository for this project called `D3-Challenge`. **Do not add this homework to an existing repository**.
