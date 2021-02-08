@@ -1,3 +1,4 @@
+//Set up chart
 var svgWidth = parseInt(d3.select('#scatter').style('width')) * 3;
 var svgHeight = svgWidth - svgWidth/2;
 var margin = {top:10, right:10, bottom:10, left:20};
@@ -20,4 +21,9 @@ d3.select(".chart")
     .attr("class", "tooltip")
     .style("opacity", 0);
 
+//read in data
+    d3.csv("assets/data/data.csv").then(function (data, err) {
+        
+    });
+    
 
