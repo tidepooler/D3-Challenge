@@ -73,7 +73,7 @@ function setUpChart() {
         .attr("cx", d => xLinearScale(d.poverty))
         .attr("cy", d => yLinearScale(d.healthcare))
         .attr("r", "17")
-        .attr("fill", "light blue") 
+        .attr("fill", "#00B2EE") 
         .attr("opacity", ".5")
         .attr("stroke-width", "2")
         .attr("stroke", "black"); 
@@ -108,7 +108,7 @@ function setUpChart() {
         chartGroup.append("text")
           .attr("transform", `translate(${width / 2}, ${height + margin.top + 30})`)
           .attr("class", "axisText")
-          .text("In Poverty");
+          .text("In Poverty (%)");
     
       // create tooltips, assign it a class
       // =======================================================
