@@ -73,7 +73,7 @@ function setUpChart() {
         .attr("cx", d => xLinearScale(d.poverty))
         .attr("cy", d => yLinearScale(d.healthcare))
         .attr("r", "17")
-        .attr("fill", "green") 
+        .attr("fill", "light blue") 
         .attr("opacity", ".5")
         .attr("stroke-width", "2")
         .attr("stroke", "black"); 
@@ -90,7 +90,7 @@ function setUpChart() {
             .attr("dy",-415)
             .attr("text-anchor", "middle")
             .attr("font-size", "10px")
-            .attr("fill", "black");
+            .attr("fill", "white");
     
             console.log(censusData);
     
