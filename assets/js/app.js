@@ -78,7 +78,6 @@ function setUpChart() {
         .attr("stroke-width", "2")
         .attr("stroke", "black"); 
     
-    
         chartGroup.select("g")
             .selectAll("circle")
             .data(censusData)
@@ -93,8 +92,6 @@ function setUpChart() {
             .attr("fill", "black");
     
             console.log(censusData);
-    
-        
     
         // Create axes labels
         chartGroup.append("text")
